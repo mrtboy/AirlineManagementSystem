@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DB2DDE24-4252-432E-BAAE-82B6ABE050AC}</ProjectGuid>
+    <ProjectGuid>{0CBEA92F-6DE7-4065-B412-066537B21586}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AirlineManagementSystem</RootNamespace>
-    <AssemblyName>AirlineManagementSystem</AssemblyName>
+    <RootNamespace>AirlineManagementSystem2</RootNamespace>
+    <AssemblyName>AirlineManagementSystem2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

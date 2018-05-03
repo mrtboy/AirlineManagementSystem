@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DB2DDE24-4252-432E-BAAE-82B6ABE050AC}</ProjectGuid>
+    <ProjectGuid>{95EB6219-9383-43AD-956B-6FD09AFE9599}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AirlineManagementSystem</RootNamespace>
-    <AssemblyName>AirlineManagementSystem</AssemblyName>
+    <RootNamespace>AirlineManagementSystem3</RootNamespace>
+    <AssemblyName>AirlineManagementSystem3</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,10 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AirlineCompany.cs" />
+    <Compile Include="EconomyPassenger.cs" />
+    <Compile Include="FirstClassPassenger.cs" />
     <Compile Include="Flight.cs" />
+    <Compile Include="Passenger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ticket.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

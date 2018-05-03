@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirlineManagementSystem", "AirlineManagementSystem\AirlineManagementSystem.csproj", "{DB2DDE24-4252-432E-BAAE-82B6ABE050AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirlineManagementSystem2", "AirlineManagementSystem2\AirlineManagementSystem2.csproj", "{0CBEA92F-6DE7-4065-B412-066537B21586}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirlineManagementSystem3", "AirlineManagementSystem3\AirlineManagementSystem3.csproj", "{95EB6219-9383-43AD-956B-6FD09AFE9599}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{DB2DDE24-4252-432E-BAAE-82B6ABE050AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB2DDE24-4252-432E-BAAE-82B6ABE050AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB2DDE24-4252-432E-BAAE-82B6ABE050AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CBEA92F-6DE7-4065-B412-066537B21586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CBEA92F-6DE7-4065-B412-066537B21586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CBEA92F-6DE7-4065-B412-066537B21586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CBEA92F-6DE7-4065-B412-066537B21586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95EB6219-9383-43AD-956B-6FD09AFE9599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95EB6219-9383-43AD-956B-6FD09AFE9599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95EB6219-9383-43AD-956B-6FD09AFE9599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95EB6219-9383-43AD-956B-6FD09AFE9599}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
