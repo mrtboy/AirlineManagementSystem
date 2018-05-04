@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,34 +9,45 @@ namespace AirlineManagementSystem3
 {
     public class Flight
     {
-        public static IDictionary<int, Flight> FlightList = new Dictionary<int, Flight>();
-
+        private static ArrayList FlightList = new ArrayList();
+        
         public int Id { get; set; }
         public string Origin { get; set; }
         public string Destination { get; set; }
         public DateTime Date { get; set; }
-        public decimal Price { get; set; }
 
-        public Flight(int id, string origin, string destination, DateTime date, decimal price)
+        public Flight(int id, string origin, string destination, DateTime date)
         {
             this.Id = id;
             this.Origin = origin;
             this.Destination = destination;
             this.Date = date;
-            this.Price = price;
+            FlightList.Add(this);
         }
 
         public override string ToString()
         {
-            string result = "Flight with id " + Id + " from " + Origin + " To " + Destination + " Date " + Date + " Price " + Price;
+            string result = "Flight with id " + Id + " from " + Origin + " To " + Destination + " Date " + Date ;
             return result;
         }
 
-        public Flight FindFlight(int id)
+        //public Flight FindFlight(int id)
+        //{
+        //    if (this != null && Id == id)
+        //    {
+        //        return this;
+        //    }
+        //    return null;
+        //}
+
+        public static Flight FindFlight(int id)
         {
-            if (this != null)
+            foreach(Flight flight in FlightList)
             {
-                return this;
+                if(flight.Id == id)
+                {
+                    return flight;
+                }
             }
             return null;
         }

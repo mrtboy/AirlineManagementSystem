@@ -10,11 +10,10 @@ namespace AirlineManagementSystem3
     {
         public double LuggageWeight{ get; set; }
 
-        public EconomyPassenger(double luggageWight)
-            :base()
+        public EconomyPassenger(int id, string firstName, string lastName, string phoneNumber, Ticket ticket, double luggageWight)
+            :base(id, firstName,lastName, phoneNumber, ticket)
         {
             this.LuggageWeight = luggageWight;
-
         }
 
         public EconomyPassenger() { }
@@ -22,6 +21,11 @@ namespace AirlineManagementSystem3
         public override string GetInfo(int id)
         {
             return base.GetInfo(id);
+        }
+
+        public override string ToString()
+        {
+            return "Name: " + FirstName + " " + LastName + " Phone Numeber " + PhoneNumber + " Luggage Weight is " + LuggageWeight;
         }
     }
 }
